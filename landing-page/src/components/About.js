@@ -33,11 +33,7 @@ const About = () => {
               alt="hero"
               src={coder}>
             </img>
-            
-
           </div>
-
-
         </div>
       </section>
     )
