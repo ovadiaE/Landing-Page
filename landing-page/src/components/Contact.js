@@ -1,5 +1,7 @@
 import React, {useRef } from "react"
 import emailjs from 'emailjs-com'
+import { MailIcon } from "@heroicons/react/solid"
+import { PhoneIcon } from "@heroicons/react/solid"
 
 const Contact = () => {
 
@@ -21,8 +23,8 @@ const Contact = () => {
     
     return (
         <section id="contact" className="relative">
-          <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap bg-blue-500">
-            <div className="lg:w-1/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <div className="container md:px-20 px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap ">
+            <div className="lg:w-1/3 md:w-full bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
               <iframe
                 width="100%"
                 height="100%"
@@ -36,19 +38,16 @@ const Contact = () => {
               />
               <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                 <div className="lg:w-1/2 px-6">
-                  <h2 className="title-font font-semibold text-white tracking-widest text-md">
-                    I'm currently located here.
-                  </h2>
                 </div>
-                <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <div className="pt-3 px-6 mt-4 lg:mt-0">
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs ">
-                    EMAIL
+                    <MailIcon className="w-4 h-4 ml-1"/>
                   </h2>
                   <a className="text-indigo-400 leading-relaxed">
                     ovadia.esq@gmail.com
                   </a>
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                    PHONE
+                  <PhoneIcon className="w-4 h-4 ml-1"/>
                   </h2>
                   <p className="leading-relaxed">+972-50-758-3089</p>
                 </div>
@@ -58,13 +57,12 @@ const Contact = () => {
               onSubmit={submit}
               ref={form}
               name="contact"
-              className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+              className="lg:w-1/3 md:w-full flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
               <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Let's Chat
               </h2>
-              <p className="leading-relaxed mb-5">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-                suscipit officia aspernatur veritatis. Asperiores, aliquid?
+              <p>
+              <br></br>
               </p>
               <div className="relative mb-4">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-400">

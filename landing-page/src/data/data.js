@@ -28,7 +28,7 @@ export const skills = [
     
     { technicalSkill: "CSS", id: 's3' },
 
-    { technicalSkill: "tailwindCSS", id: 's4' },
+    { technicalSkill: "Tailwind CSS", id: 's4' },
 
     { technicalSkill: "Material UI", id: 's5' },
     

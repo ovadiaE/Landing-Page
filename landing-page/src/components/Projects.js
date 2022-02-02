@@ -12,7 +12,6 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-4xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">A collection of apps created using the tools listed below</p>
         </div>
         <div className="flex justify-evenly flex-wrap -m-4">
           {projects.map((project) => (

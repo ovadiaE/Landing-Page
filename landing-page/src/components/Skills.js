@@ -12,9 +12,10 @@ const Skills = () => {
               Skills &amp; Technologies
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-              ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-              possimus est.
+              As a developer I maintain the constant attitude of a student. 
+              Every day is an opportunty to sharpen or expand my skillset. 
+              <br></br> 
+              Below is a list of all the tools and technologies that I have hands on experience with... so far.
             </p>
           </div>
           <div className="flex flex-col lg:justify-center  sm:mx-auto sm:mb-2 w-full">
