@@ -1,9 +1,12 @@
 import React from "react"
-import About from "./components/About";
+import About from "./components/About"
 import Projects from './components/Projects'
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar"
+import ProjectModal from "./components/ProjectModal"
+import 'flowbite';
+
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font"> 
