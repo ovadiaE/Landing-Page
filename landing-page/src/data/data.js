@@ -19,9 +19,20 @@ export const projects = [
         image: deepCorrelation,
         image2: correlation,
         link: "https://data-lagoon.com/",
+        id: 2,
+        projectInfo: "Components created for Lagoon displaying correlations between a chosen companies public information and datasets aggragated from various sources",
+        
+    },
+
+    {
+        title: "Weight In Gold",
+        subtitle: "REACT, NodeJs",
+        description: null,
+        image: deepCorrelation,
+        image2: correlation,
+        link: "https://data-lagoon.com/",
         id: 2
     }
-
 ]
 
 export const skills = [
@@ -42,4 +53,7 @@ export const skills = [
 
     { technicalSkill: "Socket-io", id: 's8' },
 
+    { technicalSkill: "Heroku", id: 's9' },
+
+    { technicalSkill: "Netlify", id: 's10' },
 ]

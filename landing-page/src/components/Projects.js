@@ -20,10 +20,10 @@ export default function Projects() {
               target="_blank"
               key={projects[0].id}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative sm:h-full">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-fillobject-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
                   src={projects[0].image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
@@ -37,8 +37,7 @@ export default function Projects() {
                 </div>
               </div>
             </a>
-            <ProjectModal projects={projects}/>
-          
+            <ProjectModal projects={projects}/>          
         </div>
       </div>
     </section>
