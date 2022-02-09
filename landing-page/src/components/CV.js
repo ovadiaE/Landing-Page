@@ -4,7 +4,7 @@ import axios from "axios"
 const CV = () => {
    
     const fetchCV = async () => {
-        await axios(`http://localhost:4000/pdf`, {
+        await axios(`https://mighty-waters-41948.herokuapp.com/pdf`, {
             method: "GET",
             responseType: "blob"
             //Force to receive data in a Blob Format
@@ -25,14 +25,11 @@ const CV = () => {
         }
      
         return (
-        <button  onClick={fetchCV}  
-            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg bg-blue-700 sm:items-center" >
-            CV
-        </button>
-      
-    )
-    
-
+          <button  onClick={fetchCV}  
+              className="ml-4 inline-flex text-gray-400 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg bg-blue-700 sm:items-center" >
+              CV
+          </button>
+      )
 }
 
 export default CV
