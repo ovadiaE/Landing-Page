@@ -39,13 +39,13 @@ const Contact = () => {
               <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md sm:py-0 sm:mt-8">
                 <div className="lg:w-1/2 px-6">
                 </div>
-                <div className="pt-3 px-6 mt-4 lg:mt-0">
-                  <h2 className="title-font font-semibold text-white tracking-widest text-xs ">
+                <div className="pt-3 px-6 mt-4 lg:mt-0 cursor-text">
+                  <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                     <MailIcon className="w-4 h-4 ml-1"/>
                   </h2>
-                  <a className="text-indigo-400 leading-relaxed">
+                  <h1 className="text-indigo-400 leading-relaxed cursor-text">
                     ovadia.esq@gmail.com
-                  </a>
+                  </h1>
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                   <PhoneIcon className="w-4 h-4 ml-1"/>
                   </h2>
