@@ -66,10 +66,10 @@ const Contact = () => {
                 Let's Chat
               </h2>
               <div className=" pt-5 w-1/5 flex flex-row  items-start justify-between">
-                <a href="https://github.com/ovadiaE" target="_blank" rel="norefer">
+                <a href="https://github.com/ovadiaE" target="_blank" rel="noreferrer">
                   <FaGithub className="w-7 h-7 ml-1 hover:bg-green-600 rounded-full" />
                 </a>
-               <a href="https://www.linkedin.com/in/ovadia-esquenazi-650153211/" target="_blank" rel="norefer">
+               <a href="https://www.linkedin.com/in/ovadia-esquenazi-650153211/" target="_blank" rel="noreferrer">
                  <FaLinkedinIn className="w-7 h-7 ml- hover:bg-green-600 rounded-full"/>
                </a>
               </div>
