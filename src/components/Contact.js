@@ -2,6 +2,10 @@ import React, {useRef } from "react"
 import emailjs from 'emailjs-com'
 import { MailIcon } from "@heroicons/react/solid"
 import { PhoneIcon } from "@heroicons/react/solid"
+import { FaGithub } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
+
+
 
 const Contact = () => {
 
@@ -61,6 +65,14 @@ const Contact = () => {
               <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
                 Let's Chat
               </h2>
+              <div className=" pt-5 w-1/5 flex flex-row  items-start justify-between">
+                <a href="https://github.com/ovadiaE" target="_blank" rel="norefer">
+                  <FaGithub className="w-7 h-7 ml-1 hover:bg-green-600 rounded-full" />
+                </a>
+               <a href="https://www.linkedin.com/in/ovadia-esquenazi-650153211/" target="_blank" rel="norefer">
+                 <FaLinkedinIn className="w-7 h-7 ml- hover:bg-green-600 rounded-full"/>
+               </a>
+              </div>
               <p>
               <br></br>
               </p>
