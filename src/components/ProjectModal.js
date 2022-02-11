@@ -63,7 +63,7 @@ const ProjectModal = ({projects}) => {
 
 
     const modalContent = () => (
-        <div id="defaultModal" aria-hidden="true" class="sm:h-3/4 sm:text-sm hidden overflow-y-auto overflow-x-hidden fixed right-0 left-0 top-4 z-50 justify-center  flex-col items-center 
+        <div id="defaultModal" aria-hidden="true" className="sm:h-3/4 sm:text-sm hidden overflow-y-auto overflow-x-hidden fixed right-0 left-0 top-4 z-50 justify-center  flex-col items-center 
              h-modal md:h-full md:inset-0">
             
                 {!toggleImage ? (correlation()) : (deepCorrelation())} 
@@ -75,7 +75,7 @@ const ProjectModal = ({projects}) => {
             <br></br>
             {arrowButtons()}
             <br></br>
-            <button  data-modal-toggle="defaultModal" type="button" class="text-white bg-green-500 hover:bg-blue-800 focus:ring-4 
+            <button  data-modal-toggle="defaultModal" type="button" className="text-white bg-green-500 hover:bg-blue-800 focus:ring-4 
                 first-letter:focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center 
                 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Close
