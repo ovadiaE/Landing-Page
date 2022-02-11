@@ -18,6 +18,7 @@ export default function Projects() {
             <a
               href={projects[0].link}
               target="_blank"
+              rel="noreferrer" 
               key={projects[0].id}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative sm:h-full">
