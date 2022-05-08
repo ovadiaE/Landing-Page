@@ -1,6 +1,8 @@
 import chatApp from '../components/images/chatApp.png'
+import WeatherApp from '../components/images/WeatherApp.png'
 import deepCorrelation from '../components/images/deepCorrelation.png'
 import correlation from '../components/images/correlation.png'
+import landing_page from '../components/images/landing_page.png'
 
 export const projects = [
     {
@@ -23,15 +25,22 @@ export const projects = [
         projectInfo: "Components created for Lagoon displaying correlations between a chosen companies public information and datasets aggragated from various sources",
         
     },
+    {
+        title: "Weather App",
+        subtitle: "React, Redux, accuweather API ",
+        description:"Weather app",
+        image: WeatherApp,
+        link: "https://mellow-sorbet-253c5b.netlify.app",
+        id: 3
+    },
 
     {
-        title: "Weight In Gold",
-        subtitle: "REACT, NodeJs",
-        description: null,
-        image: deepCorrelation,
-        image2: correlation,
-        link: "https://data-lagoon.com/",
-        id: 2
+        title: "First Landing Page",
+        subtitle: "React, React particles, scss",
+        description:"particle animation landing page",
+        image: landing_page,
+        link: "https://www.ovadiae.com",
+        id: 4
     }
 ]
 
@@ -40,6 +49,8 @@ export const skills = [
     { technicalSkill: "JavaScript", id: 's1' },
     
     { technicalSkill: "REACT", id: 's2' },
+    
+    { technicalSkill: "Redux", id: 's11' },
     
     { technicalSkill: "CSS", id: 's3' },
 
@@ -55,5 +66,5 @@ export const skills = [
 
     { technicalSkill: "Heroku", id: 's9' },
 
-    { technicalSkill: "Netlify", id: 's10' },
+    { technicalSkill: "Netlify", id: 's10' }
 ]
